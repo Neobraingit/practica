@@ -7,3 +7,5 @@ while True:
   entradas.append(añadir_entrada)
   entradas.sort()
   print (entradas)
+  
+  
