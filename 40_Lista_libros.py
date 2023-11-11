@@ -19,8 +19,9 @@ while opcion != 'Salir':
         lista_de_libros.remove(elemento_a_borrar)
         opcion = input('Dime tu opción: ')
         
-    elif opcion == 'Salir':
-        print ('SALIENDO DEL PROGRAMA...¡ADIOS!')
+    else:
+        opcion == 'Salir'
+print ('SALIENDO DEL PROGRAMA...¡ADIOS!')
 
         
         
