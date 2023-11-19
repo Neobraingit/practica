@@ -7,3 +7,5 @@ class Persona ():
 
 Marcos = Persona(1.80, 94)
 print (Marcos.peso)
+David = Persona(1.50, 80)
+print (David.altura)
