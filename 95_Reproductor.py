@@ -13,10 +13,11 @@ opcion = input()
 # Generamos el cuerpo del programa
 
 if opcion == '1':
-    archivo1 = 'ruta/al/archivo.mp3'
-    playsound('ruta_archivo')
+    archivo1 = 'oldie.mp3'
+    playsound(archivo1)
 elif opcion == '2':
-    archivo2 = 'ruta/al/archivo2.mp3'
+    archivo2 = 'oldie2.mp3'
+    playsound(archivo2)
 else:
     print ('No has elegido ninguna opción.')
     
